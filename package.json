@@ -6,19 +6,26 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.8.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.3.0",
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server-local": "NODE_ENV=development node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:4000",
   "browserslist": {
     "production": [
       ">0.2%",
